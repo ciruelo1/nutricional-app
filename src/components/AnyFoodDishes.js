@@ -11,7 +11,7 @@ const AnyFoodDishes = ({ getData }) => {
     const [query, setQuery] = useState();
 
     const getFoods = () => {
-        const title = document.querySelector('#AnyFoodDishes').value.toLowerCase().trim();
+        const title = document.querySelector(`#AnyFoodDishes`).value.toLowerCase().trim();
         if (query !== title) {
             setQuery(title);
             getData(title);
@@ -30,7 +30,7 @@ const AnyFoodDishes = ({ getData }) => {
                             {...params}
                             label="Food"
                             margin="normal"
-                            variant="outline"
+                            variant="outlined"
                         />
                     )}
                 />

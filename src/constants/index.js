@@ -14,7 +14,7 @@ export const predefinedFoodDishes = [
     {_id: 7, title: 'Ramen', selected: false},
     {_id: 8, title: 'Curry', selected: false},
     {_id: 9, title: 'Sushi', selected: false},
-    {_id: 1, title: 'Lasagna', selected: false}
+    {_id: 10, title: 'Lasagna', selected: false}
 ];
 
 export const anyFoodDishes = [
